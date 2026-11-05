@@ -25,4 +25,4 @@ services:
         condition: service_healthy
 volumes:
       hotel-data:
-        external: true
+        name: hotel-data
